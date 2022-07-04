@@ -1,23 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;400;600;700&display=swap');
 
-h1
- {
+h1 {
     font-family: "Lexend";
     font-weight: 700;
 }
 
-h2{
+h2 {
     font-family: "Lexend";
     font-weight: 600;
 }
 
-body,a,text,
+
 p {
     font-family: "Lexend";
-    font-size: 9px;
-    letter-spacing: 0.5px;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 160%;
     
-    
+
+
 }
 
 a {
@@ -29,7 +31,8 @@ a {
 }
 
 #intro-man {
-    padding: 10px 0 10px 15px;
+    padding: 10px 0 1px 1px;
+    ;
 
 }
 
@@ -43,34 +46,76 @@ a {
     padding: 10px 0 10px 15px;
 }
 
-#bikeMan {
-    padding: 10px 15px 10px 0;
-}
-
-#our_services_h1{
+#our_services_h1 {
     padding: 5px 45px 5px 25px;
 }
 
-.card-text{
-    font-family: 'Lexend';
+/* .card-text {
     font-style: normal;
     font-weight: 200;
     font-size: 15px;
+} */
+
+#cards {
+    margin-top: 50px;
 }
 
-#cards{
-    margin-top: 70px;
-}
-
-.satisfaction{
+.satisfaction {
     padding: 5px 100px;
 
 }
-#promise-cards{
-    padding:5px 200px 5px 0
+
+#promise-cards {
+  flex-direction: column;
+    justify-content: space-around;
+    max-width: 220px;
+    margin-right:70px ;
+    margin-bottom: 50px;
 }
 
-.menu-foot{
+#icon_holder {
+    width: 48px;
+    height: 48px;
+    background-color: #04AA6D;
+    color: white;
+    display: inline-flex    ;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: none;
+
+}
+
+
+
+.menu-foot {
     padding-left: 20px;
     padding-right: 20px;
+}
+
+
+
+
+
+/* driverpage  style */
+.accordion-button::after {
+    filter: brightness(0%) invert(100%);
+}
+
+.accordion-body:not(.collapsed) {
+    font-size: 10px;
+    font-weight: 200;
+    text-align: start;
+}
+
+.accordion-button:not(.collapsed) {
+    color: white;
+}
+
+.accordion-button:not(.collapsed)::after {
+    filter: brightness(0%) invert(100%);
+}
+
+#about {
+    display: flex;
 }
