@@ -30,24 +30,27 @@
             <div class="collapse navbar-collapse" id="navmenu">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Home</a>
+                        <a href="#home" class="nav-link">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">About us</a>
+                        <a href="#about_us" class="nav-link">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link"> Services</a>
+                        <a href="#services" class="nav-link"> Services</a>
                     </li>
                 </ul>
 
                 <button class="btn btn-dark float-lg-end" type="button">
-                    Contact us
+                    <a href="contact.html">
+                        Contact us
+
+                    </a>
                 </button>
             </div>
         </div>
     </nav>
 
-    <section class="text-dark p-5">
+    <section class="text-dark p-5" id="home">
         <div class="container">
             <div class="d-sm-flex align-items-center justify-content-between">
                 <div class="intro">
@@ -65,7 +68,8 @@
                             I need a rider
                         </button>
                         <button class="btn btn-light btn-lg" type="button">
-                            Apply to be a rider
+                            <a href="driver.html">Apply to be a rider</a>
+
                         </button>
                     </div>
                 </div>
@@ -88,7 +92,7 @@
         </div>
     </section>
 
-    <section class="text-dark p-5">
+    <section class="text-dark p-5" id="about_us">
         <div class="container">
             <div class="d-sm-flex align-items-center justify-content-between">
                 <img id="intro-man" class="img-fluid pt-5 " width=" 450px" src="image/nduthi_man.jpg" alt="" />
@@ -102,7 +106,8 @@
                         About us
                         Boasting 1.2 m commercial motorbikes as of March 2022 and approximately 15,000 more registered
                         each month, Kenya’s boda boda industry is thriving and a source of livelihood for many families.
-                        The major challenge for new and existing motorbike owners, <span class="text-success">Read More</span>
+                        The major challenge for new and existing motorbike owners, <span class="text-success">Read
+                            More</span>
                     </p>
 
 
@@ -111,7 +116,7 @@
         </div>
     </section>
 
-    <section class="px-5 py-5">
+    <section class="px-5 py-5" id="services">
         <div class="d-flex-column text-center justify-content-evenly ">
             <h1>Our Services</h1>
             <h3 id="our_servicesh1"> we are the Best solution for your Hiring needs</h3>
@@ -121,38 +126,60 @@
         </div>
 
 
-        <div class="d-sm-flex justify-content-between  justify-content-center">
+        <div class="d-sm-flex justify-content-between  ">
             <div id="cards" class="card" style="width: 18rem;">
                 <img src="image/suite_man.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Find a Motorbike Rider</h5>
-                    <p class="card-text">Conveniently get a qualified rider matching your specific needs to ride your
-                        bike and earn more. No need to post on whatsapp status or job groups, get in touch with us and
-                        reduce the hustle. Have peace of mind and let your motorbike and rider work for you. .</p>
-                    <a href="#">I need a Rider </a>
+                <div class="card-body" id="card-b">
+                    <div>
+                        <h5 class="card-title">Find a Motorbike Rider</h5>
+                        <p class="card-text">Conveniently get a qualified rider matching your specific needs to ride your
+                            bike and earn more. No need to post on whatsapp status or job groups, get in touch with us and
+                            reduce the hustle. Have peace of mind and let your motorbike and rider work for you.</p>
+
+                    </div>
+                    
+                    <a href="#" class="pt-2">
+                        <span class="pe-3 text-success">I need a Rider</span>
+                         
+                         <i class="fa-solid fa-arrow-right text-success"></i>
+                    </a>
                 </div>
             </div>
 
             <div id="cards" class="card" style="width: 18rem;">
                 <img src="image/fixingbike.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Register as a Rider</h5>
-                    <p class="card-text">Are you a qualified motorbike rider looking for a job? Apply with us and we
-                        will connect you with an owner looking for a rider such as you. Requirements: ID, Valid driving
-                        licence, Valid certificate of good conduct, Clear passport photo.</p>
-                    <a href="#">I am a Rider </a>
+                <div class="card-body" id="card-b">
+                    <div>
+                        <h5 class="card-title">Register as a Rider</h5>
+                        <p class="card-text">Are you a qualified motorbike rider looking for a job? Apply with us and we
+                            will connect you with an owner looking for a rider such as you. Requirements: ID, Valid driving
+                            licence, Valid certificate of good conduct, Clear passport photo.</p>
+                    </div>
+                   
+                    <a href="#" class="pt-2">
+                        <span class="pe-3 text-success">I am a Rider</span>
+                         
+                         <i class="fa-solid fa-arrow-right text-success"></i>
+                    </a>
                 </div>
             </div>
 
             <div id="cards" class="card" style="width: 18rem;">
                 <img src="image/lady.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Vet my Rider</h5>
-                    <p class="card-text">Do you have a new prospective rider and would like to verify if their details
-                        are accurate? Reduce the risk of loss due to damage or theft by letting us do a verification
-                        before they start working for you.
-                    </p>
-                    <a href="#">Vet my Rider</a>
+                <div class="card-body" id="card-b">
+                    <div>
+                        <h5 class="card-title">Vet my Rider</h5>
+                        <p class="card-text">Do you have a new prospective rider and would like to verify if their details
+                            are accurate? Reduce the risk of loss due to damage or theft by letting us do a verification
+                            before they start working for you.
+                        </p>
+                    </div>
+                    
+                    <a href="#" class="pt-2">
+                        <span class="pe-3 text-success">Vet my Rider</span>
+                         
+                         <i class="fa-solid fa-arrow-right text-success"></i>
+                    </a>
                 </div>
             </div>
 
@@ -198,7 +225,7 @@
                 <div id="promise-cards">
 
                     <div id="icon_holder">
-                        
+
                         <i class="fa-solid fa-comment fa-lg"></i>
                     </div>
 
@@ -212,11 +239,11 @@
 
                     <div id="icon_holder">
                         <i class="fa-solid fa-handshake fa-lg"></i>
-                    
+
                     </div>
 
                     <h5 class="py-2 ">Transparency</h5>
-                    <p >You are involved in every step of the process to ensure you are comfortable with your match as
+                    <p>You are involved in every step of the process to ensure you are comfortable with your match as
                         well. All supporting documents and guarantor details are shared with you.
 
                     </p>
@@ -229,7 +256,7 @@
                     </div>
 
                     <h5 class="py-2">Guarantee</h5>
-                    <p >We will share two contacts for rider next of kin who act as guarantors should anything go amiss.
+                    <p>We will share two contacts for rider next of kin who act as guarantors should anything go amiss.
 
                     </p>
                 </div>
@@ -255,7 +282,9 @@
 
 
     </section>
-
+    <a href="home" class="float">
+        <i class="fa fa-arrow-up my-float"></i>
+    </a>
     <footer class="container-xxl py-5 bg-success text-white" height="50px">
         <div class="d-sm-flex justify-content-between justify-content-center">
             <div class=" px-2">

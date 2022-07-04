@@ -17,9 +17,6 @@ p {
     font-weight: 200;
     font-size: 15px;
     line-height: 160%;
-    
-
-
 }
 
 a {
@@ -32,13 +29,10 @@ a {
 
 #intro-man {
     padding: 10px 0 1px 1px;
-    ;
-
 }
 
 .intro {
     padding: 10px 15px 10px 0;
-    ;
 }
 
 
@@ -50,26 +44,25 @@ a {
     padding: 5px 45px 5px 25px;
 }
 
-/* .card-text {
-    font-style: normal;
-    font-weight: 200;
-    font-size: 15px;
-} */
 
 #cards {
     margin-top: 50px;
 }
-
+#card-b{
+    display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
 .satisfaction {
     padding: 5px 100px;
 
 }
 
 #promise-cards {
-  flex-direction: column;
+    flex-direction: column;
     justify-content: space-around;
     max-width: 220px;
-    margin-right:70px ;
+    margin-right: 70px;
     margin-bottom: 50px;
 }
 
@@ -78,8 +71,8 @@ a {
     height: 48px;
     background-color: #04AA6D;
     color: white;
-    display: inline-flex    ;
-    align-items: center;
+    display: inline-flex;
+    align-items:center ;
     justify-content: center;
     border-radius: 50%;
     border: none;
