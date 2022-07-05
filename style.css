@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;400;600;700&display=swap');
+
+h1 {
+    font-family: "Lexend";
+    font-weight: 700;
+}
+
+h2 {
+    font-family: "Lexend";
+    font-weight: 600;
+}
+
+
+p {
+    font-family: "Lexend";
+    font-style: normal;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 160%;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    font-family: "Lexend";
+    font-size: 16px;
+
+}
+
+#intro-man {
+    padding: 10px 0 1px 1px;
+}
+
+.intro {
+    padding: 10px 15px 10px 0;
+}
+
+
+.aboutText {
+    padding: 10px 0 10px 15px;
+}
+
+#our_services_h1 {
+    padding: 5px 45px 5px 25px;
+}
+
+
+#cards {
+    margin-top: 50px;
+}
+#card-b{
+    display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+.satisfaction {
+    padding: 5px 0px;
+
+}
+
+#promise-cards {
+    flex-direction: column;
+    justify-content: space-around;
+    max-width: 220px;
+    margin-right: 70px;
+    margin-bottom: 50px;
+}
+
+#icon_holder {
+    width: 48px;
+    height: 48px;
+    background-color: #04AA6D;
+    color: white;
+    display: inline-flex;
+    align-items:center ;
+    justify-content: center;
+    border-radius: 50%;
+    border: none;
+
+}
+
+
+
+.menu-foot {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.float{
+	position:fixed;
+	width:40px;
+	height:40px;
+	bottom:30px;
+	right:10px;
+	background-color:#0C9;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px rgb(26, 26, 26);
+}
+
+.my-float{
+	margin-top:13px;
+}
+
+
+
+/* driverpage  style */
+.accordion-button::after {
+    filter: brightness(0%) invert(100%);
+}
+
+.accordion-body:not(.collapsed) {
+    font-size: 10px;
+    font-weight: 200;
+    text-align: start;
+}
+
+.accordion-button:not(.collapsed) {
+    color: white;
+}
+
+.accordion-button:not(.collapsed)::after {
+    filter: brightness(0%) invert(100%);
+}
+
+#about {
+    display: flex;
+}
