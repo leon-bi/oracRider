@@ -54,7 +54,7 @@ a {
    justify-content: space-between;
 }
 .satisfaction {
-    padding: 5px 100px;
+    padding: 5px 0px;
 
 }
 
@@ -86,7 +86,22 @@ a {
     padding-right: 20px;
 }
 
+.float{
+	position:fixed;
+	width:40px;
+	height:40px;
+	bottom:30px;
+	right:10px;
+	background-color:#0C9;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px rgb(26, 26, 26);
+}
 
+.my-float{
+	margin-top:13px;
+}
 
 
 
