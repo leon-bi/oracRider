@@ -2,7 +2,7 @@
 
 
 :root {
-    --previewBg: linear-gradient(to right, #47be8c, #3fb281, #38a677, #309b6d, #288f63, #238b5e, #1e875a, #188355, #138554, #0e8753, #078851, #008a50);
+    --previewBg: linear-gradient(to right, #47be8c, #3fb281, #309b6d, #288f63, #238b5e, #1e875a, #188355, #138554, #0e8753, #078851, #008a50);
 
 }
 
@@ -92,8 +92,15 @@ a {
 
 }
 
-
-
+.carousel-inner{
+    padding-left: 70px;
+}
+.carousel-control-next-icon{
+    color: #0C9;
+}
+.carousel-control-prev-icon{
+    color: #0C9;
+}
 .menu-foot {
     padding-left: 20px;
     padding-right: 20px;
