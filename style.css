@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;400;600;700&display=swap');
 
+
+:root {
+    --previewBg: linear-gradient(to right, #47be8c, #3fb281, #38a677, #309b6d, #288f63, #238b5e, #1e875a, #188355, #138554, #0e8753, #078851, #008a50);
+
+}
+
+
 h1 {
     font-family: "Lexend";
     font-weight: 700;
@@ -26,6 +33,9 @@ a {
     font-size: 16px;
 
 }
+.greenBg{
+    background: var(--previewBg);
+}
 
 #intro-man {
     padding: 10px 0 1px 1px;
@@ -48,13 +58,16 @@ a {
 #cards {
     margin-top: 50px;
 }
-#card-b{
+
+#card-b {
     display: flex;
-   flex-direction: column;
-   justify-content: space-between;
+    flex-direction: column;
+    justify-content: space-between;
 }
+
 .satisfaction {
     padding: 5px 0px;
+    text-align: center;
 
 }
 
@@ -69,10 +82,10 @@ a {
 #icon_holder {
     width: 48px;
     height: 48px;
-    background-color: #04AA6D;
+    background: var(--previewBg);
     color: white;
     display: inline-flex;
-    align-items:center ;
+    align-items: center;
     justify-content: center;
     border-radius: 50%;
     border: none;
@@ -86,21 +99,21 @@ a {
     padding-right: 20px;
 }
 
-.float{
-	position:fixed;
-	width:40px;
-	height:40px;
-	bottom:30px;
-	right:10px;
-	background-color:#0C9;
-	color:#FFF;
-	border-radius:50px;
-	text-align:center;
-	box-shadow: 2px 2px 3px rgb(26, 26, 26);
+.float {
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    bottom: 30px;
+    right: 10px;
+    background-color: #0C9;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 2px 2px 3px rgb(26, 26, 26);
 }
 
-.my-float{
-	margin-top:13px;
+.my-float {
+    margin-top: 13px;
 }
 
 
