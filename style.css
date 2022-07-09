@@ -28,14 +28,14 @@ p {
 }
 
 a {
-    color: white;
+    color: inherit;
     text-decoration: none;
     font-family: "Lexend";
     font-size: 16px;
 
 }
 a:hover{
-    color: greenyellow;
+    color: rgb(12, 231, 19);
 }
 .bold-p{
 font-family: 'Lexend';
