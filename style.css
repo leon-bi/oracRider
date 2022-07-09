@@ -6,21 +6,17 @@
 
 }
 
-text{
-    font-family: "Lexend";
 
-}
 
 h1 {
     font-family: "Lexend";
     font-weight: 700;
 }
 
-h2 {
+h3,h4,h5 {
     font-family: "Lexend";
-    font-weight: 600;
+    font-weight: 500;
 }
-
 
 p {
     font-family: 'Lexend';
@@ -28,7 +24,7 @@ p {
     font-weight: 400;
     font-size: 12px;
     line-height: 160%;
-    color: #64625A;
+    color:#6B7280;
 }
 
 a {
@@ -39,7 +35,7 @@ a {
 
 }
 a:hover{
-    color: rgb(12, 231, 19);
+    color: #008A50;
 }
 .bold-p{
 font-family: 'Lexend';
