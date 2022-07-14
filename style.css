@@ -51,16 +51,7 @@ a:hover {
     color: #008A50;
 }
 
-.bold-p {
-    font-family: 'Lexend';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 165%;
-    /* or 33px */
 
-    letter-spacing: 0.5px;
-}
 
 .greenBg {
     background: var(--previewBg);
@@ -76,15 +67,6 @@ a:hover {
 
 .intro {
     padding: 10px 15px 10px 0;
-}
-
-
-.aboutText {
-    padding: 10px 0 10px 15px;
-}
-
-#our_services_h1 {
-    padding: 5px 45px 5px 25px;
 }
 
 .card-text {
@@ -125,13 +107,7 @@ color: #221E13;
     flex-direction: column;
     justify-content: space-between;
     height: auto;
-}
-
-.satisfaction {
-    padding: 5px 0px;
-    text-align: center;
-
-}
+}   
 
 #promise-cards {
     flex-direction: column;
