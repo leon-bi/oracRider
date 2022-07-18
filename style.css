@@ -2,7 +2,7 @@
 
 
 :root {
-    --previewBg: linear-gradient(to right, #47be8c, #3fb281, #309b6d, #288f63, #238b5e, #188355, #138554, #0e8753, #078851, #008a50);
+    --previewBg: linear-gradient(to right, #47be8c, #3fb281,#3fb281, #309b6d, #288f63, #238b5e, #188355, #138554, #0e8753, #078851, #008a50);
 
 }
 
@@ -55,6 +55,12 @@ a:hover {
 
 .greenBg {
     background: var(--previewBg);
+}
+#logo{
+    width: 100px;
+}
+#logo-ft{
+    width: 200px;
 }
 
 #more {

@@ -15,3 +15,8 @@ function readMore(){
         moreText.style.display = "inline";
     }
 }
+
+function calculateDaysBetweenDates(begin, end){
+
+    
+}
